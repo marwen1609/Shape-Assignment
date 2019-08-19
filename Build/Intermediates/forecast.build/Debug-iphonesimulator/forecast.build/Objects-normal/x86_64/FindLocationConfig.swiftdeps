@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FindLocationConfig"
+provides-nominal:
+- "8forecast18FindLocationConfigV"
+provides-member:
+- ["8forecast18FindLocationConfigV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "FindLocationConfig"
+- !private "FindLocationInteractor"
+- !private "FindLocationPresenter"
+- !private "FindLocationRouter"
+- !private "FindLocationViewController"
+- "ForecastClient"
+- !private "UINavigationController"
+- "UIViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNavigationBarHidden"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "output"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "output"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["Se", "black"]
+- !private ["SE", "black"]
+- !private ["SQ", "black"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isNavigationBarHidden"]
+- !private ["SQ", "navigationBar"]
+- !private ["SQ", "output"]
+- !private ["SQ", "tintColor"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["8forecast18FindLocationConfigV", "FindLocationInteractor"]
+- !private ["8forecast18FindLocationConfigV", "FindLocationPresenter"]
+- !private ["8forecast18FindLocationConfigV", "FindLocationRouter"]
+- !private ["8forecast18FindLocationConfigV", "FindLocationViewController"]
+- ["8forecast18FindLocationConfigV", "ForecastClient"]
+- !private ["8forecast18FindLocationConfigV", "UINavigationController"]
+- ["8forecast18FindLocationConfigV", "UIViewController"]
+- ["8forecast18FindLocationConfigV", "init"]
+- ["8forecast18FindLocationConfigV", "setup"]
+- !private ["8forecast22FindLocationInteractorC", "action"]
+- !private ["8forecast22FindLocationInteractorC", "deinit"]
+- !private ["8forecast22FindLocationInteractorC", "init"]
+- !private ["8forecast22FindLocationInteractorC", "output"]
+- !private ["8forecast28FindLocationInteractorActionP", "init"]
+- !private ["8forecast28FindLocationInteractorOutputP", "init"]
+- !private ["8forecast28FindLocationInteractorOutputP", "output"]
+- !private ["8forecast21FindLocationPresenterC", "deinit"]
+- !private ["8forecast21FindLocationPresenterC", "init"]
+- !private ["8forecast21FindLocationPresenterC", "output"]
+- !private ["8forecast27FindLocationPresenterOutputP", "init"]
+- !private ["8forecast27FindLocationPresenterOutputP", "output"]
+- !private ["8forecast18FindLocationRouterC", "deinit"]
+- !private ["8forecast18FindLocationRouterC", "init"]
+- !private ["8forecast26FindLocationViewControllerC", "deinit"]
+- !private ["8forecast26FindLocationViewControllerC", "init"]
+- !private ["8forecast26FindLocationViewControllerC", "output"]
+- !private ["8forecast32FindLocationViewControllerOutputP", "action"]
+- !private ["8forecast32FindLocationViewControllerOutputP", "init"]
+- !private ["8forecast32FindLocationViewControllerOutputP", "output"]
+- !private ["SH", "black"]
+- !private ["SH", "init"]
+- !private ["SH", "isNavigationBarHidden"]
+- !private ["SH", "navigationBar"]
+- !private ["SH", "output"]
+- !private ["SH", "tintColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNavigationBarHidden"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "output"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- !private ["So26NSExtensionRequestHandlingP", "output"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNavigationBarHidden"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "output"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isNavigationBarHidden"]
+- !private ["So8NSObjectP", "navigationBar"]
+- !private ["So8NSObjectP", "output"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["Sq", "black"]
+- !private ["6Client16OptionalProtocolP", "black"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "output"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So16UIBarPositioningP", "tintColor"]
+- !private ["So7UIColorC", "black"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So18UIContentContainerP", "output"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "output"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So15UINavigationBarC", "tintColor"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "isNavigationBarHidden"]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "output"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isNavigationBarHidden"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "output"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "output"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So16UIStateRestoringP", "output"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "output"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isNavigationBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "navigationBar"]
+- !private ["So23UIUserActivityRestoringP", "output"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isNavigationBarHidden"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So16UIViewControllerC", "output"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNavigationBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "8forecast18FindLocationConfigV"
+- !private "8forecast22FindLocationInteractorC"
+- !private "8forecast28FindLocationInteractorActionP"
+- !private "8forecast28FindLocationInteractorOutputP"
+- !private "8forecast21FindLocationPresenterC"
+- !private "8forecast27FindLocationPresenterOutputP"
+- !private "8forecast18FindLocationRouterC"
+- !private "8forecast26FindLocationViewControllerC"
+- !private "8forecast32FindLocationViewControllerOutputP"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "6Client16OptionalProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Modules/API.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Modules/Entities.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Modules/Client.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/API/API.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Entities.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Headers/API-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Headers/Entities-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Headers/Client-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Client.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/API.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Entities.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Client.build/module.modulemap"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "72c91646649d38d922b438bff6ca10d3"

@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "474c4cd5c043b2860fc68e8a29cbe26e"
+build_time: [1560330507, 325083000]
+inputs:
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/Utilities.swift": [1559858872, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/HTTPMethod.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/Result.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/DecodeResource.swift": [1559858820, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/Request.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/Client.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/RequestParameters.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Sources/APIError.swift": [1550596474, 0]

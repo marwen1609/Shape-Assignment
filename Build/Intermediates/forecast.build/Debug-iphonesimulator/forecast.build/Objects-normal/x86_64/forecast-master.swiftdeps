@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "013d25f2dc7b657c18ee951f5024711c"
+build_time: [1560330529, 59554000]
+inputs:
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/FindLocation/FindLocationInteractor.swift": [1559877721, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/FindLocation/FindLocationViewController.swift": [1559871768, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/ForecastDetail/ForecastDetailPresenter.swift": [1559890595, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/FindLocation/FindLocationPresenter.swift": [1559863454, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/Views/ForecastTableView.swift": [1559888851, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/ForecastDetail/ForecastDetailInteractor.swift": [1559890542, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/FindLocation/FindLocationConfig.swift": [1559876776, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/FindLocation/FindLocationRouter.swift": [1559871541, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/ForecastDetail/ForecastDetailConfig.swift": [1559875869, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/Views/UITableViewCell+Helper.swift": [1559887620, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/ForecastDetail/ForecastDetailViewController.swift": [1559890566, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/AppDelegate.swift": [1559844512, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/Views/ForecastCell.swift": [1559889155, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/forecast/Views/ErrorView.swift": [1559879322, 0]

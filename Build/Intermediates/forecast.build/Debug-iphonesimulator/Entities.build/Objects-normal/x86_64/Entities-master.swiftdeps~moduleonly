@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "eebec82f37b15e8d16bf5f0c70423ace"
+build_time: [1560330507, 325069000]
+inputs:
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastWeather.swift": [1559887666, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/CurrentWeather.swift": [1550596474, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastSnow.swift": [1559887687, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastMain.swift": [1559887661, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastList.swift": [1559887653, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/Coordinate.swift": [1559887700, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastClouds.swift": [1559887671, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/City.swift": [1559887694, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastWind.swift": [1559887677, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastRain.swift": [1559887682, 0]
+  "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Sources/ForecastFiveDays.swift": [1559887648, 0]

@@ -1,0 +1,130 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["8Entities14CurrentWeatherV", ""]
+- ["8Entities14CurrentWeatherV", "getCurrent"]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIError"
+- !private "BooleanLiteralType"
+- "CurrentWeather"
+- !private "QueryParameters"
+- "Request"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "URLQueryItem"
+- !private "UnicodeScalarType"
+- !private "decodeResource"
+depends-member:
+- !private ["6Client8APIErrorV", "init"]
+- !private ["6Client8APIErrorV", "init"]
+- ["8Entities14CurrentWeatherV", "APIError"]
+- ["8Entities14CurrentWeatherV", "CurrentWeather"]
+- !private ["8Entities14CurrentWeatherV", "QueryParameters"]
+- ["8Entities14CurrentWeatherV", "Request"]
+- ["8Entities14CurrentWeatherV", "String"]
+- !private ["8Entities14CurrentWeatherV", "URL"]
+- !private ["8Entities14CurrentWeatherV", "URLQueryItem"]
+- !private ["8Entities14CurrentWeatherV", "decodeResource"]
+- ["8Entities14CurrentWeatherV", "getCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "APIError"]
+- !private ["Se", "CurrentWeather"]
+- !private ["Se", "QueryParameters"]
+- !private ["Se", "Request"]
+- !private ["Se", "URL"]
+- !private ["Se", "URLQueryItem"]
+- !private ["Se", "decodeResource"]
+- !private ["Se", "init"]
+- !private ["SE", "APIError"]
+- !private ["SE", "CurrentWeather"]
+- !private ["SE", "QueryParameters"]
+- !private ["SE", "Request"]
+- !private ["SE", "URL"]
+- !private ["SE", "URLQueryItem"]
+- !private ["SE", "decodeResource"]
+- !private ["SE", "init"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["6Client10HTTPMethodO", "get"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["6Client15QueryParametersV", "init"]
+- !private ["SY", "get"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["6Client7RequestV", "init"]
+- !private ["6Client17RequestParametersP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "6Client8APIErrorV"
+- "8Entities14CurrentWeatherV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "6Client10HTTPMethodO"
+- !private "SH"
+- !private "6Client15QueryParametersV"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "6Client7RequestV"
+- !private "6Client17RequestParametersP"
+- !private "10Foundation3URLV"
+- !private "10Foundation12URLQueryItemV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Modules/Entities.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Modules/Client.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/API/API.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Entities.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Headers/Entities-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Headers/Client-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Client.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/API.build/unextended-module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Entities.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Client.build/module.modulemap"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a60036c0da6525dec696de1be20848dd"

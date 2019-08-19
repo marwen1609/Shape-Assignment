@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForecastDetailConfig"
+provides-nominal:
+- "8forecast20ForecastDetailConfigV"
+provides-member:
+- ["8forecast20ForecastDetailConfigV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CLLocationCoordinate2D"
+- !private "Coordinate"
+- "ForecastClient"
+- "ForecastDetailConfig"
+- !private "ForecastDetailInteractor"
+- !private "ForecastDetailPresenter"
+- !private "ForecastDetailViewController"
+- "UIViewController"
+depends-member:
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "output"]
+- !private ["8Entities10CoordinateC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "output"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "output"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "output"]
+- !private ["8forecast17ErrorViewDelegateP", "init"]
+- !private ["8forecast17ErrorViewDelegateP", "output"]
+- ["8forecast20ForecastDetailConfigV", "CLLocationCoordinate2D"]
+- !private ["8forecast20ForecastDetailConfigV", "Coordinate"]
+- ["8forecast20ForecastDetailConfigV", "ForecastClient"]
+- !private ["8forecast20ForecastDetailConfigV", "ForecastDetailInteractor"]
+- !private ["8forecast20ForecastDetailConfigV", "ForecastDetailPresenter"]
+- !private ["8forecast20ForecastDetailConfigV", "ForecastDetailViewController"]
+- ["8forecast20ForecastDetailConfigV", "UIViewController"]
+- ["8forecast20ForecastDetailConfigV", "init"]
+- ["8forecast20ForecastDetailConfigV", "setup"]
+- !private ["8forecast24ForecastDetailInteractorC", "coordinate"]
+- !private ["8forecast24ForecastDetailInteractorC", "deinit"]
+- !private ["8forecast24ForecastDetailInteractorC", "init"]
+- !private ["8forecast24ForecastDetailInteractorC", "output"]
+- !private ["8forecast30ForecastDetailInteractorOutputP", "init"]
+- !private ["8forecast30ForecastDetailInteractorOutputP", "output"]
+- !private ["8forecast23ForecastDetailPresenterC", "deinit"]
+- !private ["8forecast23ForecastDetailPresenterC", "init"]
+- !private ["8forecast23ForecastDetailPresenterC", "output"]
+- !private ["8forecast29ForecastDetailPresenterOutputP", "init"]
+- !private ["8forecast29ForecastDetailPresenterOutputP", "output"]
+- !private ["8forecast28ForecastDetailViewControllerC", "deinit"]
+- !private ["8forecast28ForecastDetailViewControllerC", "init"]
+- !private ["8forecast28ForecastDetailViewControllerC", "output"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "coordinate"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "init"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "output"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "coordinate"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "init"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "output"]
+- !private ["SH", "init"]
+- !private ["SH", "output"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "output"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "output"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "output"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "output"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "output"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "output"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "output"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "output"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "output"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "output"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "output"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "output"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "output"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "output"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "output"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+depends-nominal:
+- !private "So22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
+- !private "8Entities10CoordinateC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "8forecast17ErrorViewDelegateP"
+- "8forecast20ForecastDetailConfigV"
+- !private "8forecast24ForecastDetailInteractorC"
+- !private "8forecast30ForecastDetailInteractorOutputP"
+- !private "8forecast23ForecastDetailPresenterC"
+- !private "8forecast29ForecastDetailPresenterOutputP"
+- !private "8forecast28ForecastDetailViewControllerC"
+- !private "8forecast34ForecastDetailViewControllerOutputP"
+- !private "8forecast27ForecastTableViewDataSourceP"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Modules/API.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Modules/Entities.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Modules/Client.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/API/API.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Entities.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Headers/API-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Headers/Entities-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Headers/Client-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Client.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/API.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Entities.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Client.build/module.modulemap"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "46707b6b8e2b17e34e7186cef104b3a0"

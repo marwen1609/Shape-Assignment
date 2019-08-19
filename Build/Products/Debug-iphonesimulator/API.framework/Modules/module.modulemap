@@ -1,0 +1,11 @@
+framework module API {
+  umbrella header "API.h"
+
+  export *
+  module * { export * }
+}
+
+module API.Swift {
+    header "API-Swift.h"
+    requires objc
+}

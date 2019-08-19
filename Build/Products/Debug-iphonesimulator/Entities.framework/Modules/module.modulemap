@@ -1,0 +1,11 @@
+framework module Entities {
+  umbrella header "Entities.h"
+
+  export *
+  module * { export * }
+}
+
+module Entities.Swift {
+    header "Entities-Swift.h"
+    requires objc
+}

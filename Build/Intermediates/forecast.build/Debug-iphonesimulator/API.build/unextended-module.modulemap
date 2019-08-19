@@ -1,0 +1,10 @@
+framework module API {
+  umbrella header "API.h"
+
+  export *
+  module * { export * }
+}
+
+module API.__Swift {
+    exclude header "API-Swift.h"
+}

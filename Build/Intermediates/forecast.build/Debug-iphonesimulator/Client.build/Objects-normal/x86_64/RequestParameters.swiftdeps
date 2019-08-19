@@ -1,0 +1,434 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestParameters"
+- "FormParameters"
+- "EncodableParameters"
+- "JSONParameters"
+- "QueryParameters"
+- "RawBodyParameters"
+provides-nominal:
+- "6Client17RequestParametersP"
+- "6Client14FormParametersV"
+- "6Client19EncodableParametersV"
+- "6Client14JSONParametersV"
+- "6Client15QueryParametersV"
+- "6Client17RawBodyParametersV"
+provides-member:
+- ["6Client17RequestParametersP", ""]
+- ["6Client14FormParametersV", ""]
+- ["6Client19EncodableParametersV", ""]
+- ["6Client14JSONParametersV", ""]
+- ["6Client15QueryParametersV", ""]
+- ["6Client17RawBodyParametersV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- !private "Dictionary"
+- "Encodable"
+- "EncodableParameters"
+- "ExpressibleByArrayLiteral"
+- "ExpressibleByDictionaryLiteral"
+- "FormParameters"
+- !private "JSONEncoder"
+- "JSONParameters"
+- "QueryParameters"
+- "RawBodyParameters"
+- "RequestParameters"
+- "String"
+- !private "StringLiteralType"
+- !private "URLComponents"
+- "URLQueryItem"
+- "URLRequest"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "jsonString"]
+- !private ["Sa", "map"]
+- !private ["SK", "append"]
+- !private ["SK", "data"]
+- !private ["SK", "jsonString"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonString"]
+- !private ["s7CVarArgP", "keyValuePairs"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "append"]
+- !private ["Sl", "data"]
+- !private ["Sl", "init"]
+- !private ["Sl", "jsonString"]
+- !private ["Sl", "keyValuePairs"]
+- !private ["Sl", "map"]
+- !private ["SL", "data"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "jsonString"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonString"]
+- !private ["s28CustomDebugStringConvertibleP", "keyValuePairs"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "queryItems"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "jsonString"]
+- !private ["s17CustomReflectableP", "keyValuePairs"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "queryItems"]
+- !private ["s17CustomReflectableP", "setValue"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonString"]
+- !private ["s23CustomStringConvertibleP", "keyValuePairs"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "queryItems"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "jsonString"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "append"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["Se", "jsonString"]
+- !private ["Se", "keyValuePairs"]
+- !private ["Se", "map"]
+- !private ["Se", "queryItems"]
+- !private ["Se", "url"]
+- !private ["SD", "init"]
+- !private ["SD", "jsonString"]
+- !private ["SD", "keyValuePairs"]
+- !private ["SD", "map"]
+- !private ["SE", "append"]
+- !private ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SE", "jsonString"]
+- !private ["SE", "keyValuePairs"]
+- !private ["SE", "map"]
+- !private ["SE", "queryItems"]
+- !private ["SE", "url"]
+- ["6Client19EncodableParametersV", "Data"]
+- ["6Client19EncodableParametersV", "Encodable"]
+- !private ["6Client19EncodableParametersV", "JSONEncoder"]
+- ["6Client19EncodableParametersV", "URLRequest"]
+- ["6Client19EncodableParametersV", "apply"]
+- ["6Client19EncodableParametersV", "deinit"]
+- ["6Client19EncodableParametersV", "init"]
+- ["6Client19EncodableParametersV", "jsonData"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "append"]
+- !private ["SQ", "data"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonString"]
+- !private ["SQ", "keyValuePairs"]
+- !private ["SQ", "map"]
+- !private ["SQ", "queryItems"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "url"]
+- !private ["SQ", "utf8"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Key"]
+- !private ["s25ExpressibleByArrayLiteralP", "URLComponents"]
+- !private ["s25ExpressibleByArrayLiteralP", "URLQueryItem"]
+- ["s25ExpressibleByArrayLiteralP", "Value"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Key"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "apply"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "jsonString"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "query"]
+- ["s30ExpressibleByDictionaryLiteralP", "ArrayLiteralElement"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Dictionary"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "URLComponents"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "URLQueryItem"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", ""]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_ArrayLiteralElement"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "apply"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "data"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "jsonString"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keyValuePairs"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "query"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["6Client14FormParametersV", "Dictionary"]
+- ["6Client14FormParametersV", "Key"]
+- ["6Client14FormParametersV", "String"]
+- ["6Client14FormParametersV", "URLRequest"]
+- ["6Client14FormParametersV", "Value"]
+- ["6Client14FormParametersV", "_Default_Key"]
+- ["6Client14FormParametersV", "_Default_Value"]
+- ["6Client14FormParametersV", "apply"]
+- ["6Client14FormParametersV", "data"]
+- ["6Client14FormParametersV", "deinit"]
+- ["6Client14FormParametersV", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "data"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonString"]
+- !private ["SH", "keyValuePairs"]
+- !private ["SH", "map"]
+- !private ["SH", "queryItems"]
+- !private ["SH", "setValue"]
+- !private ["SH", "url"]
+- !private ["SH", "utf8"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["6Client14JSONParametersV", "String"]
+- ["6Client14JSONParametersV", "URLRequest"]
+- ["6Client14JSONParametersV", "apply"]
+- ["6Client14JSONParametersV", "deinit"]
+- ["6Client14JSONParametersV", "init"]
+- ["6Client14JSONParametersV", "json"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["SM", "append"]
+- !private ["SM", "jsonString"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "jsonString"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "data"]
+- ["6Client15QueryParametersV", "ArrayLiteralElement"]
+- ["6Client15QueryParametersV", "Key"]
+- ["6Client15QueryParametersV", "String"]
+- !private ["6Client15QueryParametersV", "URLComponents"]
+- ["6Client15QueryParametersV", "URLQueryItem"]
+- ["6Client15QueryParametersV", "URLRequest"]
+- ["6Client15QueryParametersV", "Value"]
+- ["6Client15QueryParametersV", "_Default_ArrayLiteralElement"]
+- ["6Client15QueryParametersV", "_Default_Key"]
+- ["6Client15QueryParametersV", "_Default_Value"]
+- ["6Client15QueryParametersV", "apply"]
+- ["6Client15QueryParametersV", "deinit"]
+- ["6Client15QueryParametersV", "init"]
+- ["6Client15QueryParametersV", "query"]
+- !private ["Sk", "append"]
+- !private ["Sk", "jsonString"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "data"]
+- !private ["Sm", "jsonString"]
+- !private ["Sm", "map"]
+- ["6Client17RawBodyParametersV", "Data"]
+- ["6Client17RawBodyParametersV", "String"]
+- ["6Client17RawBodyParametersV", "URLRequest"]
+- ["6Client17RawBodyParametersV", "apply"]
+- ["6Client17RawBodyParametersV", "contentType"]
+- ["6Client17RawBodyParametersV", "data"]
+- ["6Client17RawBodyParametersV", "deinit"]
+- ["6Client17RawBodyParametersV", "init"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "queryItems"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- ["6Client17RequestParametersP", "ArrayLiteralElement"]
+- !private ["6Client17RequestParametersP", "Dictionary"]
+- !private ["6Client17RequestParametersP", "JSONEncoder"]
+- ["6Client17RequestParametersP", "Key"]
+- !private ["6Client17RequestParametersP", "URLComponents"]
+- !private ["6Client17RequestParametersP", "URLQueryItem"]
+- ["6Client17RequestParametersP", "URLRequest"]
+- ["6Client17RequestParametersP", "Value"]
+- ["6Client17RequestParametersP", ""]
+- ["6Client17RequestParametersP", "_Default_ArrayLiteralElement"]
+- ["6Client17RequestParametersP", "_Default_Key"]
+- ["6Client17RequestParametersP", "_Default_Value"]
+- ["6Client17RequestParametersP", "apply"]
+- !private ["6Client17RequestParametersP", "contentType"]
+- !private ["6Client17RequestParametersP", "data"]
+- ["6Client17RequestParametersP", "init"]
+- !private ["6Client17RequestParametersP", "json"]
+- !private ["6Client17RequestParametersP", "jsonData"]
+- !private ["6Client17RequestParametersP", "query"]
+- !private ["ST", "append"]
+- !private ["ST", "data"]
+- !private ["ST", "init"]
+- !private ["ST", "jsonString"]
+- !private ["ST", "keyValuePairs"]
+- !private ["ST", "map"]
+- !private ["SS", "data"]
+- !private ["Sy", "data"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["10Foundation13URLComponentsV", "init"]
+- !private ["10Foundation13URLComponentsV", "queryItems"]
+- !private ["10Foundation13URLComponentsV", "url"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "jsonString"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "jsonString"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "jsonString"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "jsonString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keyValuePairs"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation14_MutableBoxingP", "init"]
+- !private ["10Foundation14_MutableBoxingP", "queryItems"]
+- !private ["10Foundation14_MutableBoxingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonString"]
+- !private ["s21_ObjectiveCBridgeableP", "keyValuePairs"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "queryItems"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "6Client19EncodableParametersV"
+- !private "SS10FoundationE8EncodingV"
+- !private "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "6Client14FormParametersV"
+- !private "SH"
+- !private "10Foundation11JSONEncoderC"
+- "6Client14JSONParametersV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "6Client15QueryParametersV"
+- !private "Sk"
+- !private "Sm"
+- "6Client17RawBodyParametersV"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "6Client17RequestParametersP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation12URLQueryItemV"
+- !private "10Foundation10URLRequestV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Client.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Client.build/unextended-module.modulemap"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "55bbb2385f9bbd07307d4a6f4567b62d"

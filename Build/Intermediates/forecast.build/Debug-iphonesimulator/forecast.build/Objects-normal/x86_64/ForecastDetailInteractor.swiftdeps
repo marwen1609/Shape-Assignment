@@ -1,0 +1,507 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForecastDetailInteractorOutput"
+- "ForecastDetailInteractor"
+provides-nominal:
+- "8forecast30ForecastDetailInteractorOutputP"
+- "8forecast24ForecastDetailInteractorC"
+provides-member:
+- ["8forecast30ForecastDetailInteractorOutputP", ""]
+- ["8forecast24ForecastDetailInteractorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Coordinate"
+- "DateFormatter"
+- !private "DispatchQueue"
+- "Error"
+- "ForecastClient"
+- "ForecastDetailInteractor"
+- "ForecastDetailInteractorOutput"
+- "ForecastDetailViewControllerOutput"
+- "ForecastFiveDays"
+- "ForecastList"
+- "ForecastTableViewElement"
+- "Int"
+- !private "Locale"
+- "String"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "dateToShow"]
+- !private ["s10ArraySliceV", "list"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "dateToShow"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "list"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["8Entities4CityC", "countryCode"]
+- !private ["8Entities4CityC", "name"]
+- !private ["6ClientAAC", "perform"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dateToShow"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "list"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "dateToShow"]
+- !private ["10Foundation15ContiguousBytesP", "list"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dateToShow"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "list"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "showError"]
+- !private ["s28CustomDebugStringConvertibleP", "showList"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTitle"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "dateToShow"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "list"]
+- !private ["s17CustomReflectableP", "showError"]
+- !private ["s17CustomReflectableP", "showList"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateTitle"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dateToShow"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "list"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "dateToShow"]
+- !private ["10Foundation12DataProtocolP", "list"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "append"]
+- !private ["Se", "city"]
+- !private ["Se", "count"]
+- !private ["Se", "countryCode"]
+- !private ["Se", "current"]
+- !private ["Se", "dateTime"]
+- !private ["Se", "getForecast"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "list"]
+- !private ["Se", "name"]
+- !private ["Se", "showError"]
+- !private ["Se", "showList"]
+- !private ["Se", "subscript"]
+- !private ["Se", "updateTitle"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "append"]
+- !private ["SE", "city"]
+- !private ["SE", "count"]
+- !private ["SE", "countryCode"]
+- !private ["SE", "current"]
+- !private ["SE", "dateTime"]
+- !private ["SE", "getForecast"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "list"]
+- !private ["SE", "name"]
+- !private ["SE", "showError"]
+- !private ["SE", "showList"]
+- !private ["SE", "subscript"]
+- !private ["SE", "updateTitle"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "count"]
+- !private ["SQ", "current"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "dateToShow"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "list"]
+- !private ["SQ", "main"]
+- !private ["SQ", "showError"]
+- !private ["SQ", "showList"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "updateTitle"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dateToShow"]
+- !private ["s25ExpressibleByArrayLiteralP", "list"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "showError"]
+- !private ["s23ExpressibleByNilLiteralP", "showList"]
+- !private ["s23ExpressibleByNilLiteralP", "updateTitle"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["3API14ForecastClientC", "perform"]
+- ["8forecast24ForecastDetailInteractorC", "Coordinate"]
+- ["8forecast24ForecastDetailInteractorC", "DateFormatter"]
+- !private ["8forecast24ForecastDetailInteractorC", "DispatchQueue"]
+- ["8forecast24ForecastDetailInteractorC", "ForecastClient"]
+- ["8forecast24ForecastDetailInteractorC", "ForecastDetailInteractorOutput"]
+- ["8forecast24ForecastDetailInteractorC", "ForecastFiveDays"]
+- ["8forecast24ForecastDetailInteractorC", "ForecastList"]
+- ["8forecast24ForecastDetailInteractorC", "ForecastTableViewElement"]
+- ["8forecast24ForecastDetailInteractorC", "Int"]
+- !private ["8forecast24ForecastDetailInteractorC", "Locale"]
+- ["8forecast24ForecastDetailInteractorC", "String"]
+- ["8forecast24ForecastDetailInteractorC", "api"]
+- !private ["8forecast24ForecastDetailInteractorC", "cityName"]
+- ["8forecast24ForecastDetailInteractorC", "coordinate"]
+- !private ["8forecast24ForecastDetailInteractorC", "countryCode"]
+- !private ["8forecast24ForecastDetailInteractorC", "dateFormatter"]
+- ["8forecast24ForecastDetailInteractorC", "dateToShow"]
+- ["8forecast24ForecastDetailInteractorC", "deinit"]
+- ["8forecast24ForecastDetailInteractorC", "forecast"]
+- !private ["8forecast24ForecastDetailInteractorC", "forecastFiveDays"]
+- !private ["8forecast24ForecastDetailInteractorC", "formatListToTableView"]
+- !private ["8forecast24ForecastDetailInteractorC", "getForecast"]
+- ["8forecast24ForecastDetailInteractorC", "init"]
+- !private ["8forecast24ForecastDetailInteractorC", "listForTableView"]
+- ["8forecast24ForecastDetailInteractorC", "numberOfRows"]
+- ["8forecast24ForecastDetailInteractorC", "numberOfSections"]
+- ["8forecast24ForecastDetailInteractorC", "output"]
+- ["8forecast24ForecastDetailInteractorC", "title"]
+- ["8forecast24ForecastDetailInteractorC", "tryToLoadAgain"]
+- ["8forecast24ForecastDetailInteractorC", "viewIsReady"]
+- ["8forecast30ForecastDetailInteractorOutputP", "Error"]
+- ["8forecast30ForecastDetailInteractorOutputP", "showError"]
+- ["8forecast30ForecastDetailInteractorOutputP", "showList"]
+- ["8forecast30ForecastDetailInteractorOutputP", "updateTitle"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "DateFormatter"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "DispatchQueue"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "ForecastFiveDays"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "ForecastTableViewElement"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "Locale"]
+- ["8forecast34ForecastDetailViewControllerOutputP", ""]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "api"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "cityName"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "coordinate"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "countryCode"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "dateFormatter"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "dateToShow"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "forecast"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "forecastFiveDays"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "formatListToTableView"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "getForecast"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "listForTableView"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "numberOfRows"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "numberOfSections"]
+- !private ["8forecast34ForecastDetailViewControllerOutputP", "output"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "title"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "tryToLoadAgain"]
+- ["8forecast34ForecastDetailViewControllerOutputP", "viewIsReady"]
+- !private ["8Entities16ForecastFiveDaysC", "city"]
+- !private ["8Entities16ForecastFiveDaysC", "getForecast"]
+- !private ["8Entities16ForecastFiveDaysC", "list"]
+- !private ["8Entities12ForecastListC", "dateTime"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "DateFormatter"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "DispatchQueue"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "ForecastFiveDays"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "ForecastTableViewElement"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "Locale"]
+- ["8forecast27ForecastTableViewDataSourceP", ""]
+- !private ["8forecast27ForecastTableViewDataSourceP", "api"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "cityName"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "coordinate"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "countryCode"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "dateFormatter"]
+- ["8forecast27ForecastTableViewDataSourceP", "dateToShow"]
+- ["8forecast27ForecastTableViewDataSourceP", "forecast"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "forecastFiveDays"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "formatListToTableView"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "getForecast"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "listForTableView"]
+- ["8forecast27ForecastTableViewDataSourceP", "numberOfRows"]
+- ["8forecast27ForecastTableViewDataSourceP", "numberOfSections"]
+- !private ["8forecast27ForecastTableViewDataSourceP", "output"]
+- ["8forecast27ForecastTableViewDataSourceP", "title"]
+- ["8forecast27ForecastTableViewDataSourceP", "tryToLoadAgain"]
+- ["8forecast27ForecastTableViewDataSourceP", "viewIsReady"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "count"]
+- !private ["SH", "current"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "dateToShow"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "list"]
+- !private ["SH", "main"]
+- !private ["SH", "showError"]
+- !private ["SH", "showList"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "updateTitle"]
+- !private ["10Foundation6LocaleV", "current"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "dateToShow"]
+- !private ["SM", "list"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "showError"]
+- !private ["Sq", "showList"]
+- !private ["Sq", "updateTitle"]
+- !private ["6Client16OptionalProtocolP", "showError"]
+- !private ["6Client16OptionalProtocolP", "showList"]
+- !private ["6Client16OptionalProtocolP", "updateTitle"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dateToShow"]
+- !private ["Sk", "list"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dateToShow"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "list"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["6Client6ResultO", "failure"]
+- !private ["6Client6ResultO", "success"]
+- !private ["6Client14ResultProtocolP", "failure"]
+- !private ["6Client14ResultProtocolP", "success"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "dateToShow"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "list"]
+- !private ["ST", "subscript"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dateToShow"]
+- !private ["s14_ArrayProtocolP", "list"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dateToShow"]
+- !private ["s24_DestructorSafeContainerP", "list"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "showError"]
+- !private ["s21_ObjectiveCBridgeableP", "showList"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "updateTitle"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "8Entities4CityC"
+- !private "6ClientAAC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3API14ForecastClientC"
+- "8forecast24ForecastDetailInteractorC"
+- "8forecast30ForecastDetailInteractorOutputP"
+- "8forecast34ForecastDetailViewControllerOutputP"
+- !private "8Entities16ForecastFiveDaysC"
+- !private "8Entities12ForecastListC"
+- "8forecast27ForecastTableViewDataSourceP"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "6Client16OptionalProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "6Client6ResultO"
+- !private "6Client14ResultProtocolP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Modules/API.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Modules/Entities.swiftmodule/x86_64.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Modules/Client.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/API/API.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Entities/Entities.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/API.framework/Headers/API-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Entities.framework/Headers/Entities-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Products/Debug-iphonesimulator/Client.framework/Headers/Client-Swift.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Client/Client.h"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/API.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Entities.build/module.modulemap"
+- "/Users/olegammelgaard/Downloads/shapedk-interview-project-forecast-8bde1a245103/Build/Intermediates/forecast.build/Debug-iphonesimulator/Client.build/module.modulemap"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-10.2.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bcb205a9419c0f154fbb57a3863316da"

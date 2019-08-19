@@ -1,0 +1,10 @@
+framework module Entities {
+  umbrella header "Entities.h"
+
+  export *
+  module * { export * }
+}
+
+module Entities.__Swift {
+    exclude header "Entities-Swift.h"
+}
