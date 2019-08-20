@@ -33,7 +33,7 @@ class ErrorView: UIView {
         button.layer.cornerRadius = height/2.0
         button.setTitle("Try again", for: .normal)
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
-        button.backgroundColor = UIColor(red: 255.0/255.0, green: 115.0/255.0, blue: 1.0/255.0, alpha: 1.0)
+        button.backgroundColor = UIColor(red: 76.0/255.0, green: 217.0/255.0, blue: 100.0/255.0, alpha: 1.0)
         return button
     }()
 

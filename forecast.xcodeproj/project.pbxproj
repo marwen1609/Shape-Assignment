@@ -57,8 +57,8 @@
 		7B79820822AA333000C2C237 /* ForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B79820722AA333000C2C237 /* ForecastCell.xib */; };
 		7B79820A22AA366C00C2C237 /* UITableViewCell+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B79820922AA366C00C2C237 /* UITableViewCell+Helper.swift */; };
 		A55F926C23059EEB00D3BCFF /* ForcastCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */; };
-		A55F926E23059F2C00D3BCFF /* ForcastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55F926D23059F2C00D3BCFF /* ForcastCollectionViewCell.xib */; };
-		A55F92702305A56B00D3BCFF /* ForcastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F926F2305A56B00D3BCFF /* ForcastCollectionViewCell.swift */; };
+		A55F926E23059F2C00D3BCFF /* ForecastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */; };
+		A55F92702305A56B00D3BCFF /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,8 +168,8 @@
 		7B79820722AA333000C2C237 /* ForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCell.xib; sourceTree = "<group>"; };
 		7B79820922AA366C00C2C237 /* UITableViewCell+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Helper.swift"; sourceTree = "<group>"; };
 		A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastCollectionView.swift; sourceTree = "<group>"; };
-		A55F926D23059F2C00D3BCFF /* ForcastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForcastCollectionViewCell.xib; sourceTree = "<group>"; };
-		A55F926F2305A56B00D3BCFF /* ForcastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastCollectionViewCell.swift; sourceTree = "<group>"; };
+		A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCollectionViewCell.xib; sourceTree = "<group>"; };
+		A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,8 +357,8 @@
 				7B79820722AA333000C2C237 /* ForecastCell.xib */,
 				7B79820922AA366C00C2C237 /* UITableViewCell+Helper.swift */,
 				A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */,
-				A55F926D23059F2C00D3BCFF /* ForcastCollectionViewCell.xib */,
-				A55F926F2305A56B00D3BCFF /* ForcastCollectionViewCell.swift */,
+				A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */,
+				A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -523,7 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B79820822AA333000C2C237 /* ForecastCell.xib in Resources */,
-				A55F926E23059F2C00D3BCFF /* ForcastCollectionViewCell.xib in Resources */,
+				A55F926E23059F2C00D3BCFF /* ForecastCollectionViewCell.xib in Resources */,
 				3689B1D8221BE67E00E50ED5 /* LaunchScreen.storyboard in Resources */,
 				3689B1D5221BE67E00E50ED5 /* Assets.xcassets in Resources */,
 				3689B1D3221BE67C00E50ED5 /* Main.storyboard in Resources */,
@@ -561,7 +561,7 @@
 				3689B1E7221BE8EE00E50ED5 /* FindLocationInteractor.swift in Sources */,
 				3689B1E5221BE8E500E50ED5 /* FindLocationViewController.swift in Sources */,
 				7B7981FF22A9D65000C2C237 /* ForecastDetailPresenter.swift in Sources */,
-				A55F92702305A56B00D3BCFF /* ForcastCollectionViewCell.swift in Sources */,
+				A55F92702305A56B00D3BCFF /* ForecastCollectionViewCell.swift in Sources */,
 				3689B1EB221BE8FC00E50ED5 /* FindLocationPresenter.swift in Sources */,
 				7B79820422AA2EF600C2C237 /* ForecastTableView.swift in Sources */,
 				7B7981FD22A9D45100C2C237 /* ForecastDetailInteractor.swift in Sources */,

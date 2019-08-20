@@ -9,7 +9,7 @@
 import UIKit
 import Entities
 
-class ForcastCollectionViewCell: UICollectionViewCell {
+class ForecastCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var forcastTimeLabel: UILabel!
     @IBOutlet weak var forcastIcon: UIImageView!
@@ -18,13 +18,13 @@ class ForcastCollectionViewCell: UICollectionViewCell {
     private weak var forecast: ForecastList!
     
     override class func reuseIdentifier() -> String {
-        return "ForcastCollectionViewCell"
+        return "ForecastCollectionViewCell"
     }
     
-    class func cell(collectionView: UICollectionView,indexpath: IndexPath, forecast: ForecastList) -> ForcastCollectionViewCell {
+    class func cell(collectionView: UICollectionView,indexpath: IndexPath, forecast: ForecastList) -> ForecastCollectionViewCell {
         let reuseIdentifier = self.reuseIdentifier()
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexpath)
-        let customCell = cell as? ForcastCollectionViewCell
+        let customCell = cell as? ForecastCollectionViewCell
         customCell?.forecast = forecast
         customCell?.configure()
         return customCell!

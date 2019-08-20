@@ -12,12 +12,13 @@ import Entities
 
 final class ForecastCell: UITableViewCell {
 
-    @IBOutlet weak var hourLabel: UILabel!
-    @IBOutlet weak var temperatureLabel: UILabel!
-    @IBOutlet weak var weatherLabel: UILabel!
-
+    @IBOutlet weak var weekDayLabel: UILabel!
+    @IBOutlet weak var maxTemperatureLabel: UILabel!
+    @IBOutlet weak var minTemperatureLabel: UILabel!
+    @IBOutlet weak var weatherImage: UIImageView!
+    
     private weak var forecast: ForecastList!
-
+    
     override class func reuseIdentifier() -> String {
         return "ForecastCell"
     }
@@ -38,17 +39,20 @@ final class ForecastCell: UITableViewCell {
     // MARK: Private methods
 
     private func configure() {
-        configureHour()
+        configureDay()
         configureTemperature()
         configureWeather()
     }
 
-    private func configureHour() {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .none
-        dateFormatter.timeStyle = .short
-        let hour = dateFormatter.string(from: forecast.dateTime)
-        hourLabel.text = hour
+    private func configureDay() {
+        var dateFormatter: DateFormatter {
+            let template = "EEEE"
+            let format = DateFormatter.dateFormat(fromTemplate: template, options: 0, locale: Locale.current)
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = format
+            return dateFormatter
+        }
+        weekDayLabel.text = dateFormatter.string(from: forecast.dateTime)
     }
 
     private func configureTemperature() {
@@ -57,14 +61,19 @@ final class ForecastCell: UITableViewCell {
         numberFormatter.numberStyle = .decimal
         let measurementFormatter = MeasurementFormatter()
         measurementFormatter.numberFormatter = numberFormatter
-        let weatherTemperature = Measurement(value: forecast.main.temperature, unit: UnitTemperature.kelvin)
-        let temperature = measurementFormatter.string(from: weatherTemperature)
-        temperatureLabel.text = temperature
+        let maxTemperature = Measurement(value: forecast.main.maximumTemperature, unit: UnitTemperature.kelvin)
+        let minTemperature = Measurement(value: forecast.main.minimumTemperature, unit: UnitTemperature.kelvin)
+        let maxTemp = measurementFormatter.string(from: maxTemperature)
+        let minTemp = measurementFormatter.string(from: minTemperature)
+        maxTemperatureLabel.text = maxTemp
+        minTemperatureLabel.text = minTemp
     }
 
     private func configureWeather() {
-        let weather = forecast.weather.first?.main ?? "N/A"
-        weatherLabel.text = weather
+        var weather = forecast.weather.first?.icon ?? "02d"
+        weather.removeLast()
+        weather.append("d")
+        weatherImage.image = UIImage(named: weather)
     }
 
 }

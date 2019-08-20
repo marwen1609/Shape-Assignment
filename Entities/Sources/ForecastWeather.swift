@@ -2,7 +2,6 @@
 //  ForecastWeather.swift
 //  Entities
 //
-//  Created by Jhonathan Wyterlin on 06/06/2019.
 //  Created by Marwen Jamel on 19/08/2019.
 //  Copyright © 2019 SHAPE A/S. All rights reserved.
 //

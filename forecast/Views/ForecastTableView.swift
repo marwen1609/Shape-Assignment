@@ -19,7 +19,11 @@ protocol ForecastTableViewDataSource: AnyObject {
 
 final class ForecastTableView: UITableView {
     
+     // MARK: - Properties
+    
     weak var forecastDataSource: ForecastTableViewDataSource?
+    
+     // MARK: - Initilizers
     
     init() {
         super.init(frame: .zero, style: .plain)
@@ -39,6 +43,7 @@ final class ForecastTableView: UITableView {
 }
 
 extension ForecastTableView: UITableViewDataSource {
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1//forecastDataSource?.numberOfSections() ?? 0
     }
@@ -46,7 +51,7 @@ extension ForecastTableView: UITableViewDataSource {
         return forecastDataSource?.numberOfRows(in: section) ?? 0
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let forecast = forecastDataSource!.forecast(at: indexPath.row, in: indexPath.section)
+        let forecast = forecastDataSource!.forecast(at: indexPath.section, in: indexPath.row)
         return ForecastCell.cell(tableView: tableView, forecast: forecast)
     }
 }
@@ -55,54 +60,87 @@ extension ForecastTableView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 185.0
     }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let horizontalList = ForcastCollectionView()
-        horizontalList.forecastDataSource = forecastDataSource
-        horizontalList.backgroundColor = .white
-        let dateToShow = forecastDataSource!.dateToShow(in: section)
+        
+        return  createHeaderViews(tableView: tableView, section: section)
+        
+    }
+    
+     // MARK: - Members
+    
+    private func createHeaderViews(tableView: UITableView, section: Int) -> UIView{
+        
         let height = tableView.sectionHeaderHeight
         let tableViewWidth = tableView.frame.size.width
         let frame = CGRect(x: 0, y: 0, width: tableViewWidth, height: height)
-        let view = UIView(frame: frame)
-        view.backgroundColor = .white
-        let axisX = CGFloat(16.0)
-        let width = tableViewWidth - (2*axisX)
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 40))
-        label.text = dateToShow
-        label.textColor = .black
+        let width = tableViewWidth - (2*16)
         
-        let minTempratureLabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 40))
-        minTempratureLabel.text = configureTemperature(temperature: (forecastDataSource?.forecast(at: 0, in: section).main.minimumTemperature)!)
-        minTempratureLabel.translatesAutoresizingMaskIntoConstraints = false
+        let view = UIView(frame: frame)
+        
+        let horizontalList = ForcastCollectionView()
+        horizontalList.forecastDataSource = forecastDataSource
+        let dateToShow = forecastDataSource!.dateToShow(in: section)
+       
+        
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 40))
         let maxTempratureLabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 40))
+        let minTempratureLabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: 40))
+        view.backgroundColor = .white
+        horizontalList.backgroundColor = .white
+        
+        label.text = dateToShow
+        minTempratureLabel.text = configureTemperature(temperature: (forecastDataSource?.forecast(at: 0, in: section).main.minimumTemperature)!)
         maxTempratureLabel.text = configureTemperature(temperature: (forecastDataSource?.forecast(at: 0, in: section).main.maximumTemperature)!)
-        maxTempratureLabel.translatesAutoresizingMaskIntoConstraints = false
+        
         minTempratureLabel.textColor = .black
         maxTempratureLabel.textColor = .black
+        label.textColor = .black
         
+        minTempratureLabel.translatesAutoresizingMaskIntoConstraints = false
+        maxTempratureLabel.translatesAutoresizingMaskIntoConstraints = false
         label.translatesAutoresizingMaskIntoConstraints = false
         horizontalList.translatesAutoresizingMaskIntoConstraints = false
         
         view.addSubview(label)
-        
         view.addSubview(horizontalList)
-        
         view.addSubview(minTempratureLabel)
         view.addSubview(maxTempratureLabel)
-
+        
+        dateLabelConstraints(label: label, view: view)
+        tempratureLabelsConstraints(maxTempratureLabel: maxTempratureLabel, minTempratureLabel: minTempratureLabel, view: view)
+        horizontalListConsraints(horizontalList: horizontalList, label: label, view: view)
+        
+        return view
+    }
+   
+    private func configureTemperature(temperature: Double) -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.maximumFractionDigits = 0
+        numberFormatter.numberStyle = .decimal
+        let measurementFormatter = MeasurementFormatter()
+        measurementFormatter.numberFormatter = numberFormatter
+        let weatherTemperature = Measurement(value: temperature, unit: UnitTemperature.kelvin)
+        return measurementFormatter.string(from: weatherTemperature)
+        
+    }
+    // MARK: - Layout constraints
+    
+    fileprivate func dateLabelConstraints(label: UILabel,view: UIView) {
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: view
                 .topAnchor),
-            label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: axisX),
+            label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             label.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             label.heightAnchor.constraint(equalToConstant: 40)
             ])
-        
-        
+    }
+    
+    fileprivate func tempratureLabelsConstraints(maxTempratureLabel: UILabel,minTempratureLabel: UILabel,view: UIView) {
         NSLayoutConstraint.activate([
             maxTempratureLabel.topAnchor.constraint(equalTo: view
                 .topAnchor),
-            maxTempratureLabel.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: axisX),
+            maxTempratureLabel.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: 16),
             maxTempratureLabel.heightAnchor.constraint(equalToConstant: 40)
             ])
         
@@ -113,8 +151,9 @@ extension ForecastTableView: UITableViewDelegate {
             minTempratureLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor,constant: -16),
             minTempratureLabel.heightAnchor.constraint(equalToConstant: 40)
             ])
-        
-        
+    }
+    
+    fileprivate func horizontalListConsraints(horizontalList: ForcastCollectionView,label: UILabel,view: UIView) {
         NSLayoutConstraint.activate([
             horizontalList.topAnchor.constraint(equalTo: label.bottomAnchor,constant: 10),
             horizontalList.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -122,20 +161,5 @@ extension ForecastTableView: UITableViewDelegate {
             horizontalList.heightAnchor.constraint(equalToConstant: 135),
             horizontalList.bottomAnchor.constraint(equalTo: view.bottomAnchor)
             ])
-        
-        
-        return view
-    }
-    
-    
-    private func configureTemperature(temperature: Double) -> String {
-        let numberFormatter = NumberFormatter()
-        numberFormatter.maximumFractionDigits = 0
-        numberFormatter.numberStyle = .decimal
-        let measurementFormatter = MeasurementFormatter()
-        measurementFormatter.numberFormatter = numberFormatter
-        let weatherTemperature = Measurement(value: temperature, unit: UnitTemperature.kelvin)
-        return measurementFormatter.string(from: weatherTemperature)
-        
     }
 }

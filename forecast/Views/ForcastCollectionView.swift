@@ -22,7 +22,7 @@ final class ForcastCollectionView: UICollectionView {
         flowlayout.minimumLineSpacing = 0
         dataSource = self
         delegate = self
-        ForcastCollectionViewCell.registerForReuseIn(collectionView: self)
+        ForecastCollectionViewCell.registerForReuseIn(collectionView: self)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -40,7 +40,7 @@ extension ForcastCollectionView : UICollectionViewDataSource,UICollectionViewDel
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let forecast = forecastDataSource!.forecast(at: indexPath.row, in: indexPath.section)
-        return ForcastCollectionViewCell.cell(collectionView: collectionView, indexpath: indexPath, forecast: forecast)
+        return ForecastCollectionViewCell.cell(collectionView: collectionView, indexpath: indexPath, forecast: forecast)
     }
 }
 

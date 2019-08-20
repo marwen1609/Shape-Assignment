@@ -121,6 +121,7 @@ extension ForecastDetailViewController: ErrorViewDelegate {
 }
 
 extension ForecastDetailViewController: ForecastTableViewDataSource {
+    
     func numberOfSections() -> Int {
         return output.numberOfSections()
     }
