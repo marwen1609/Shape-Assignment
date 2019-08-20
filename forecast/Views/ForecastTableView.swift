@@ -22,7 +22,7 @@ final class ForecastTableView: UITableView {
      // MARK: - Properties
     
     weak var forecastDataSource: ForecastTableViewDataSource?
-    
+    var footerForecastData: ForecastList!
      // MARK: - Initilizers
     
     init() {
@@ -48,23 +48,39 @@ extension ForecastTableView: UITableViewDataSource {
         return 1//forecastDataSource?.numberOfSections() ?? 0
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return forecastDataSource?.numberOfRows(in: section) ?? 0
+        return forecastDataSource?.numberOfSections() ?? 1 - 1
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let forecast = forecastDataSource!.forecast(at: indexPath.section, in: indexPath.row)
-        return ForecastCell.cell(tableView: tableView, forecast: forecast)
-    }
+            return ForecastCell.cell(tableView: tableView, forecast: forecast)
+        }
 }
 
 extension ForecastTableView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 185.0
     }
-    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 180.0
+    }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         return  createHeaderViews(tableView: tableView, section: section)
         
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        footerForecastData = forecastDataSource!.forecast(at: 0, in: section)
+        let height = tableView.sectionFooterHeight
+        let tableViewWidth = tableView.frame.size.width
+        let frame = CGRect(x: 0, y: 0, width: tableViewWidth, height: height)
+        let containerView = FooterView(frame: frame)
+        containerView.backgroundColor = .white
+        containerView.footerViewDataSource = self
+        containerView.setupLayoutWithData()
+        
+        return containerView
     }
     
      // MARK: - Members
@@ -162,4 +178,12 @@ extension ForecastTableView: UITableViewDelegate {
             horizontalList.bottomAnchor.constraint(equalTo: view.bottomAnchor)
             ])
     }
+}
+
+extension ForecastTableView: FooterViewDataSource{
+    func forecast() -> ForecastList {
+        return footerForecastData
+    }
+    
+    
 }

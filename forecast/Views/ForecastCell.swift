@@ -31,9 +31,9 @@ final class ForecastCell: UITableViewCell {
         let reuseIdentifier = self.reuseIdentifier()
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier)
         let customCell = cell as? ForecastCell
-        customCell?.forecast = forecast
-        customCell?.configure()
-        return customCell!
+            customCell?.forecast = forecast
+            customCell?.configure()
+            return customCell!
     }
 
     // MARK: Private methods

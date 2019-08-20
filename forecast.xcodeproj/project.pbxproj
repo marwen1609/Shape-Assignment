@@ -59,6 +59,7 @@
 		A55F926C23059EEB00D3BCFF /* ForcastCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */; };
 		A55F926E23059F2C00D3BCFF /* ForecastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */; };
 		A55F92702305A56B00D3BCFF /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */; };
+		A5D80F2F230C2E5700DD1B5D /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D80F2E230C2E5700DD1B5D /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +171,7 @@
 		A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastCollectionView.swift; sourceTree = "<group>"; };
 		A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCollectionViewCell.xib; sourceTree = "<group>"; };
 		A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5D80F2E230C2E5700DD1B5D /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +361,7 @@
 				A55F926B23059EEB00D3BCFF /* ForcastCollectionView.swift */,
 				A55F926D23059F2C00D3BCFF /* ForecastCollectionViewCell.xib */,
 				A55F926F2305A56B00D3BCFF /* ForecastCollectionViewCell.swift */,
+				A5D80F2E230C2E5700DD1B5D /* FooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -574,6 +577,7 @@
 				3689B1CE221BE67C00E50ED5 /* AppDelegate.swift in Sources */,
 				7B79820622AA330F00C2C237 /* ForecastCell.swift in Sources */,
 				7B79820222A9FFA400C2C237 /* ErrorView.swift in Sources */,
+				A5D80F2F230C2E5700DD1B5D /* FooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
