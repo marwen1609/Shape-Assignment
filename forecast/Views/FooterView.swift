@@ -2,7 +2,7 @@
 //  FooterView.swift
 //  forecast
 //
-//  Created by haifa on 20/08/2019.
+//  Created by Marwen Jamel on 20/08/2019.
 //  Copyright © 2019 SHAPE A/S. All rights reserved.
 //
 
